@@ -1,99 +1,93 @@
-.ins-preview-wrapper-2158 #ins-sticky-menu {
-    box-sizing: content-box;
-    box-shadow: 3px 0px 1px 0 #004236;
-    box-sizing: content-box;
-    background-color: #004236;
-    width: 36px;
-    padding: 10px 0;
-    border: 0px none #000000;
+/* Global Styles */
+.body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(229, 215, 196);
+    margin: 100;
+    padding: 100;
 }
 
-.ins-preview-wrapper-2158.ins-pos-middle-right #ins-sticky-menu {
-    border-radius: 10px 0 0 10px !important;
-    margin-right: 10px;
+.logo {
+    width: 250px;
+    height: 150px;
+    margin-left: 620px;
 }
-
-.ins-preview-wrapper-2158.ins-pos-middle-left #ins-sticky-menu {
-    border-radius: 0 10px 10px 0 !important;
-    margin-left: 10px;
-}
-
-.ins-preview-wrapper-2158 .ins-sticky-menu-wrapper * {
-    font-size: inherit;
-}
-
-.ins-preview-wrapper-2158 .ins-sticky-menu-item-wrapper {
-    position: relative;
-    margin: 10px 0;
-}
-
-.ins-preview-wrapper-2158 .ins-sticky-item-image-wrapper {
-    width: 36px;
-    height: 36px;
-    display: flex !important;
-}
-
-.ins-preview-wrapper-2158 div.ins-sticky-item-text-wrapper {
-    position: absolute;
-    width: auto;
-    max-width: 0;
-    overflow: hidden;
-    z-index: 999;
-    transition: 0.3s max-width ease-in, opacity 0.3s ease-in;
-    top: 0;
-    opacity: 0;
+.h2 {
     text-align: center;
-    border-radius: 24px !important;
-    background-color: #D6CE4B;
-    box-shadow: 0px 0px 1px 0 #004233;
-    border: 0px none #000000;
+    color: #1b4d1d;
 }
 
-.ins-preview-wrapper-2158.ins-pos-middle-right div.ins-sticky-item-text-wrapper {
-    right: 50px;
+.linkindex{
+    color: white;
 }
 
-.ins-preview-wrapper-2158.ins-pos-middle-left div.ins-sticky-item-text-wrapper {
-    left: 50px;
+.boxindex {
+    background-color: #1b4d1d;
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center; 
+    color: white;
+}
+.linkdaftar {
+    color: #1b4d1d;
 }
 
-.ins-preview-wrapper-2158 .ins-sticky-menu-item-wrapper:hover .ins-sticky-item-text-wrapper {
-    max-width: 300px;
+.boxdaftar{
+    background-color: white;
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center; 
+  
 }
 
-.ins-preview-wrapper-2158 .ins-bubble-element.ins-selected-element+.ins-sticky-menu-wrapper .ins-sticky-item-text-wrapper,
-.ins-preview-wrapper-2158 .ins-sticky-item-text-wrapper.ins-selected-element,
-.ins-preview-wrapper-2158 .ins-sticky-menu-item-wrapper:hover .ins-sticky-item-text-wrapper {
-    max-width: 300px;
-    opacity: 1;
+.table1 {
+    margin: auto;  
+}
+.myTable {
+    margin: auto; 
 }
 
-.ins-preview-wrapper-2158 .ins-sticky-item-text {
-    color: #000000;
-    font-family: inherit;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 17px;
-    white-space: nowrap;
-    padding: 7px 14px;
+.label, .pwd {
+    line-height: 2.5;
+    margin-left: 600px;
+    margin-right: 200px;
+    align-content: center;
+    
 }
 
-.ins-preview-wrapper-2158 .ins-sticky-item-text .ins-element-link {
-    color: inherit;
-    font-family: inherit;
+.boxtext, .boxpwd {
+    height: 35px;
+    width: 250px;
+    margin-left: 600px;
+    margin-right: 200px;
+    align-content: center;
 }
 
-.ins-preview-wrapper-2158 .ins-sticky-item-image-wrapper:hover {
-    background-color: #D6CE4B;
+.password, .daftar {
+    margin-left: 600px;
+    margin-right: 200px;
+    align-content: center;
+    color: #1b4d1d;
 }
 
-.ins-preview-wrapper-2158 .ins-sticky-item-image {
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat !important;
-    background-position: center center !important;
-    margin: auto;
-    background-origin: content-box;
-    padding: 0 5px;
+.login {
+    height: 35px;
+    width: 250px;
+    margin-left: 600px;
+    margin-right: 200px;
+    align-content: center;
+    color: white;
+    background-color: #1b4d1d;
 }
+
+.checkbox {
+    text-align: center;
+}
+

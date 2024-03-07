@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,54 +8,52 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
 
-<table>
-    <tr>
-        <header>
-            <h1>LOGIN OR REGISTER</h1>
-        </header>
-    </tr>
+<body class="body">
 
-    <table border="1">
+<img class="logo" src="logo.png">
+
+    <header>
+        <h2 class="h2">LOGIN OR REGISTER</h2>
+    </header>
+
+
+    <table class="myTable">
 
         <tr>
-            <td><a href="index.html">LOGIN</a></td>
-            <td><a href="daftar.html">REGISTER</a></td>
+            <td class="boxindex"><a class="linkindex" href="index.html">LOGIN</a></td>
+            <td class="boxdaftar"><a class="linkdaftar" href="daftar.html">REGISTER</a></td>
         </tr>
     </table>
 
-<br>
-
-    <table align="center" border="1">
-    <tr>
-        <label for="Email">Email Address </label><br> 
-        <input type="text" id="username" name="username" required><br>
-
-        <label for="pwd">Password</label><br>
-        <input type="password" id="pwd" name="pwd" required><br>
-    </tr>
-    </table> 
-
-<br>
-
-    <tr>
-        <td><a href="password.html">forgot your password</a></td>
-    </tr>
-
     <br>
+    <table class="table1">
+    <tr><label class="label" for="Email">Email Address </label><br>
+    <input class="boxtext" type="email" name="username" required><br>
 
-    <tr>
-        <br><input type="button" onclick="alert('Selamat Datang !!')"
-        value="LOGIN">
+    <label class="pwd">Password</label><br>
+    <input class="boxpwd" type="password" name="pwd" required><br>
     </tr>
 
-    <br>
+<tr>
+    <p> <a class="password" href="password.html">  Forgot Your Password? </a></p>
+</tr>
 
-    <tr>
-        <br><td>Not registered yet? <a href="daftar.html">Register now</a></td> </td>
-    </tr>
+<tr>
+    
+    <p>
+        <button class="login" type="button" onclick="alert('Selamat Datang !!')" id="LOGIN">LOGIN</button>
+    </p>
+    
+</tr>
+
+<tr>
+   <p class="daftar">
+    Not registered yet? <a  href="daftar.html">Register now</a>
+   </p>
+</tr>
 </table>
 
 </body>
+
 </html>
