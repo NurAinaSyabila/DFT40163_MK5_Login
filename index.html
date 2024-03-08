@@ -9,50 +9,48 @@
 
 </head>
 
-<body class="body">
+<form action="simpan.php" method="post">
 
-<img class="logo" src="logo.png">
-
-    <header>
-        <h2 class="h2">LOGIN OR REGISTER</h2>
-    </header>
+    <body class="body">
 
 
-    <table class="myTable">
+        <img class="logo" src="logo.png">
 
-        <tr>
-            <td class="boxindex"><a class="linkindex" href="index.html">LOGIN</a></td>
-            <td class="boxdaftar"><a class="linkdaftar" href="daftar.html">REGISTER</a></td>
-        </tr>
-    </table>
+        <header>
+            <h2 class="h2">LOGIN OR REGISTER</h2>
+        </header>
 
-    <br>
-    <table class="table1">
-    <tr><label class="label" for="Email">Email Address </label><br>
-    <input class="boxtext" type="email" name="username" required><br>
 
-    <label class="pwd">Password</label><br>
-    <input class="boxpwd" type="password" name="pwd" required><br>
-    </tr>
+        <table class="myTable">
 
-<tr>
-    <p> <a class="password" href="password.html">  Forgot Your Password? </a></p>
-</tr>
+            <tr>
+                <td class="boxindex"><a class="linkindex" href="index.html">LOGIN</a></td>
+                <td class="boxdaftar"><a class="linkdaftar" href="daftar.html">REGISTER</a></td>
+            </tr>
+        </table>
 
-<tr>
-    
-    <p>
-        <button class="login" type="button" onclick="alert('Selamat Datang !!')" id="LOGIN">LOGIN</button>
-    </p>
-    
-</tr>
+        <br>
+        <label class="label" for="Email">Email Address </label><br>
+        <input class="boxtext" type="email" name="username" required><br>
 
-<tr>
-   <p class="daftar">
-    Not registered yet? <a  href="daftar.html">Register now</a>
-   </p>
-</tr>
-</table>
+        <label class="pwd">Password</label><br>
+        <input class="boxpwd" type="password" name="pwd" required><br>
+
+
+        <br>
+        <p> <a class="password" href="password.html"> Forgot Your Password? </a></p>
+        <br>
+        <p>
+            <button class="login" type="button" onclick="alert('Selamat Datang !!')" id="LOGIN">LOGIN</button>
+        </p>
+
+
+        <p class="daftar">
+            Not registered yet? <a class="Register" href="daftar.html">Register now</a>
+        </p>
+
+
+</form>
 
 </body>
 
