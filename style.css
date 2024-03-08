@@ -3,15 +3,13 @@
     font-family: Arial, sans-serif;
     background-color: rgb(229, 215, 196);
     margin: auto;
-    padding: 600px;
+    text-align: center;
 }
 
 .logo {
     width: 250px;
     height: 150px;
     margin: auto;
-    
-
 }
 
 .h2 {
@@ -51,24 +49,28 @@
     margin: auto;
 }
 
-.label,
-.pwd {
+.label,.pwd {
     line-height: 2.5;
     margin: auto;
     align-content: center;
 }
 
-.boxtext,
-.boxpwd {
+.boxtext,.boxpwd {
     height: 35px;
     width: 250px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto ;
     align-content: center;
 }
 
-.password,
-.daftar {
-    margin: auto;
+.center{
+    margin:auto;
+    text-align: center;
+}
+
+.password,.daftar {
+    margin-left: auto;
+    margin-right: auto;
     align-content: center;
     color: #1b4d1d;
 }
@@ -80,10 +82,12 @@
     align-content: center;
     color: white;
     background-color: #1b4d1d;
+    text-align: center;
 }
 
 .Register {
     color: #0a280b;
+    text-align: center;
 }
 
 .checkbox {
