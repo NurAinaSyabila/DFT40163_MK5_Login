@@ -24,8 +24,7 @@
 .boxindex {
     background-color: #1b4d1d;
     width: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin:auto;
     padding: 30px;
     box-sizing: border-box;
     align-content: center;
@@ -39,18 +38,12 @@
 .boxdaftar{
     background-color: white;
     width: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
     padding: 30px;
     box-sizing: border-box;
     align-content: center;
     text-align: center; 
-  
 }
 
-.table1 {
-    margin: auto;  
-}
 .myTable {
     margin: auto; 
 }
@@ -59,8 +52,7 @@
     line-height: 2.5;
     margin-left: 600px;
     margin-right: 200px;
-    align-content: center;
-    
+    align-content: center; 
 }
 
 .boxtext, .boxpwd {
