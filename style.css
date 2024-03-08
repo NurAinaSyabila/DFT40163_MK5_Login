@@ -2,70 +2,73 @@
 .body {
     font-family: Arial, sans-serif;
     background-color: rgb(229, 215, 196);
-    margin: 100;
-    padding: 100;
+    margin: auto;
+    padding: 600px;
 }
 
 .logo {
     width: 250px;
     height: 150px;
-    margin-left: 600px;
+    margin: auto;
     
+
 }
+
 .h2 {
     text-align: center;
     color: #1b4d1d;
 }
 
-.linkindex{
+.linkindex {
     color: white;
 }
 
 .boxindex {
     background-color: #1b4d1d;
     width: 200px;
-    margin:auto;
+    margin: auto;
     padding: 30px;
     box-sizing: border-box;
     align-content: center;
-    text-align: center; 
+    text-align: center;
     color: white;
 }
+
 .linkdaftar {
     color: #1b4d1d;
 }
 
-.boxdaftar{
+.boxdaftar {
     background-color: white;
     width: 200px;
     padding: 30px;
     box-sizing: border-box;
     align-content: center;
-    text-align: center; 
+    text-align: center;
 }
 
 .myTable {
-    margin: auto; 
+    margin: auto;
 }
 
-.label, .pwd {
+.label,
+.pwd {
     line-height: 2.5;
-    margin-left: 600px;
-    margin-right: 200px;
-    align-content: center; 
-}
-
-.boxtext, .boxpwd {
-    height: 35px;
-    width: 250px;
-    margin-left: 600px;
-    margin-right: 200px;
+    margin: auto;
     align-content: center;
 }
 
-.password, .daftar {
-    margin-left: 600px;
-    margin-right: 200px;
+.boxtext,
+.boxpwd {
+    height: 35px;
+    width: 250px;
+    margin: auto;
+    align-content: center;
+}
+
+.password,
+.daftar {
+    margin: auto;
     align-content: center;
     color: #1b4d1d;
 }
@@ -73,18 +76,16 @@
 .login {
     height: 35px;
     width: 250px;
-    margin-left: 600px;
-    margin-right: 200px;
+    margin: auto;
     align-content: center;
     color: white;
     background-color: #1b4d1d;
 }
 
-.Register{
+.Register {
     color: #0a280b;
 }
 
 .checkbox {
     text-align: center;
 }
-
